@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "RobotoFont";
+  src: url("assets/fonts/Roboto-Regular.ttf");
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+img {
+  max-width: 100%;
+}
+
+:root {
+  --fondo: #555;
+}
+
+body {
+  font-family: "RobotoFont";
+  background-color: var(--fondo);
+  background-image: url("./assets/countries.png");
+  min-height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+.material-symbols-outlined {
+  color: #c74b50;
+}
